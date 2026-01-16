@@ -2,8 +2,10 @@
 
 A simple React application that fetches posts from an API, displays them as styled cards, and allows users to search posts by title. The search query is saved locally and restored on reload.
 
----------------------------
+---
+
 ## Features
+
 * Fetch and display posts
 * Search posts by title
 * Search on Enter key
@@ -11,15 +13,19 @@ A simple React application that fetches posts from an API, displays them as styl
 * Clean card-based UI with hover effects
 * Responsive layout
 
------------------------------
+---
+
 ## Tech Stack
 
 * React (Hooks)
 * CSS (custom styling)
 * JavaScript (ES6+)
 
------------------------------
+---
+
 ## Project Structure
+
+```
 src/
 ├── components/
 │   └── PostCard.jsx
@@ -34,14 +40,25 @@ src/
 └── App.js
 ```
 
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+```
+git clone https://github.com/your-username/react-posts-app.git
+cd react-posts-app
+```
 
 ### 2. Install dependencies
+
 ```
----------------------------
 npm install
 ```
 
 ### 3. Run the app
+
 ```
 npm start
 ```
@@ -51,30 +68,34 @@ The app will be available at:
 ```
 http://localhost:3000
 ```
---------------------------------
+
+---
+
 ## Search Behavior
-```
+
 * Type a title in the search bar
 * Press Enter to filter posts
 * Search text is saved and restored on page reload
-```
-------------------------------------------------
-```
-## Styling:
+
+---
+
+## Styling
+
 * Page background is set globally in index.css
 * Post cards are styled in PostCard.css
 * Hover effects improve interactivity
 
 ---
-````
 
 ## API
 
 Posts are fetched using a service function:
+
 * fetchPosts() – retrieves post data from the API
+
 You can replace the API endpoint in services/api.js if needed.
 
-------------------------------
+---
 
 ## Future Improvements
 
@@ -87,4 +108,4 @@ You can replace the API endpoint in services/api.js if needed.
 
 ## License
 
-This project is open source and available under the MIT Lice
+This project is open source and available under the MIT License.
