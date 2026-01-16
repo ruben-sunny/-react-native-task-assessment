@@ -44,20 +44,13 @@ src/
 
 ## Getting Started
 
-### 1. Clone the repository
-
-```
-git clone https://github.com/your-username/react-posts-app.git
-cd react-posts-app
-```
-
-### 2. Install dependencies
+### 1. Install dependencies
 
 ```
 npm install
 ```
 
-### 3. Run the app
+### 2. Run the app
 
 ```
 npm start
