@@ -1,5 +1,4 @@
-# React Native 
-App
+# React Native App
 
 A simple React application that fetches posts from an API, displays them as styled cards, and allows users to search posts by title. The search query is saved locally and restored on reload.
 
