@@ -1,0 +1,30 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 12px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(110, 186, 11, 0.12);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.card .body {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  background-color: #e6eaee; /* body text background */
+  padding: 10px;
+  border-radius: 4px;
+}
