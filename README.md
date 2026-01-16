@@ -36,7 +36,6 @@ src/
 │   └── api.js
 ├── utils/
 │   └── storage.js
-├── index.css
 └── App.js
 ```
 
